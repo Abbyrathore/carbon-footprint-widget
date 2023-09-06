@@ -1,0 +1,57 @@
+{
+  "name": "carbon-footprint-widget",
+  "version": "1.0.0",
+  "description": "A library for carbon value",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "docs/"
+  ],
+  "scripts": {
+    "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "@typescript-eslint/typescript-estree": "^6.6.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abbyrathore/carbon-footprint-widget.git"
+  },
+  "keywords": [
+    "carbon-footprint",
+    "carbon",
+    "co2",
+    "carbon-index"
+  ],
+  "author": "Abhishek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abbyrathore/carbon-footprint-widget/issues"
+  },
+  "homepage": "https://github.com/Abbyrathore/carbon-footprint-widget#readme"
+}
