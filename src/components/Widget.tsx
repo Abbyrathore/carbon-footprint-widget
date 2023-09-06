@@ -9,7 +9,7 @@ export interface IWidgetProps
   title?: string;
 }
 
-const Widget: React.FunctionComponent<IWidgetProps> = (props) => {
+export const Widget: React.FunctionComponent<IWidgetProps> = (props) => {
   const { children, amount, title, style } = props;
   let _style: React.CSSProperties = style || {};
 
@@ -21,4 +21,4 @@ const Widget: React.FunctionComponent<IWidgetProps> = (props) => {
   );
 };
 
-export default Widget;
+
