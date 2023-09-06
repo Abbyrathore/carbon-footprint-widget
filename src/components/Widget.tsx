@@ -20,5 +20,3 @@ export const Widget: React.FunctionComponent<IWidgetProps> = (props) => {
     </div>
   );
 };
-
-
