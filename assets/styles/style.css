@@ -1,0 +1,42 @@
+.widget-container {
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 25px 5px rgba(194,194,194,0.39);
+  -moz-box-shadow: 0px 0px 25px 5px rgba(194,194,194,0.39);
+  box-shadow: 0px 0px 25px 5px rgba(194,194,194,0.39);
+  width: 100%;
+  border-radius: 10px !important;
+  margin: 10px 0;
+  padding: 15px 10px;
+  height: 75px;
+}
+
+.widget-image-container {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.widget-leaf-img{
+  width: 30px;
+}
+
+.widget-heading-container{
+
+}
+
+.widget-heading{
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  /* line-height: 10px; */
+}
+
+.widget-footer{
+  font-size: 13px;
+  font-weight: 200;
+  color: gray;
+  /* line-height: 5px; */
+  float: left;
+}
